@@ -36,7 +36,6 @@ namespace CropImage
         /// <param name="destDir">destination directory to save small images after division</param>
         /// <param name="numBlocks">cols and rows of blocks</param>
         /// <param name="blockSize">width and height of each block</param>
-        /// <param name="startPoint">start point of the input image (left top)</param>
         /// <param name="mode"></param>
         /// <returns></returns>
         public Combo CutImage(String imagePath, String destDir, Combo numBlocks, Combo blockSize, int mode)
