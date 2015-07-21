@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Image Display</title>
+    <script src="javascripts/jquery-1.11.3.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="image_display">
+    </div>
+</div>
+</body>
+<footer>
+    <script type="text/javascript">
+        $(function () {
+            // initialize image size and display mode
+            // loadModule is defined in gdo.js
+            // gdo.net.js is the bridge to connect caveHub
+            // gdo.management.js contain functions to change elements in Index.html 
+            //loadModule('app.tile');
+            // net --> Hub --> inst --> Hub --> net --> management --> Hub directly
+            // gdo.net in gdo.js is defined by funtion iniNet() in gdo.net.js
+            // gdo.net.server in gdo.management.js refers to caveHub.server which is defined in gdo.net.js
+            // thus management.js can call functions in caveHub directly
+            $("#image_display").width($(window).width());
+            $("#image_display").height($(window).height());
+            $("#image_display").css('background-image', 'url(../Images/ICL2.bmp)');
+            $("#image_display").css('background-repeat', "no-repeat");
+            $("#image_display").css('-webkit-background-size', 'cover');
+            $("#image_display").css('-moz-background-size', 'cover');
+            $("#image_display").css('-o-background-size', 'cover');
+            $("#image_display").css('background-size', 'cover');
+            $("#image_display").css('background-position', 'left top');    
+        });
+
+        function updateBackground(imageUrl) {
+            $("#image_display").css('background-image', 'url(' + imageUrl + ')');
+        }
+    </script>
+</footer>
+</html>

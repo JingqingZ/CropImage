@@ -1,0 +1,9 @@
+c:\users\zhang_000\documents\visual studio 2013\Projects\CropImage\CropImage\bin\Debug\CropImage.exe.config
+c:\users\zhang_000\documents\visual studio 2013\Projects\CropImage\CropImage\obj\Debug\CropImage.csprojResolveAssemblyReference.cache
+C:\Users\zhang_000\Documents\Visual Studio 2013\Projects\CropImage\CropImage\bin\Debug\CropImage.exe
+C:\Users\zhang_000\Documents\Visual Studio 2013\Projects\CropImage\CropImage\bin\Debug\CropImage.pdb
+C:\Users\zhang_000\Documents\Visual Studio 2013\Projects\CropImage\CropImage\obj\Debug\CropImage.exe
+C:\Users\zhang_000\Documents\Visual Studio 2013\Projects\CropImage\CropImage\obj\Debug\CropImage.pdb
+C:\Users\zhang_000\Documents\ICL\CropImage\CropImage\bin\Debug\CropImage.exe.config
+C:\Users\zhang_000\Documents\ICL\CropImage\CropImage\obj\Debug\CropImage.exe
+C:\Users\zhang_000\Documents\ICL\CropImage\CropImage\obj\Debug\CropImage.pdb
